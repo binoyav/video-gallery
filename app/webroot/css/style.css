@@ -1,0 +1,484 @@
+
+.clear
+{
+  clear:both;
+  height:1px;
+}
+
+.inv
+{ 
+  display:none;
+}
+
+/* GENERAL ------------------------------------------------------------*/
+
+body 
+{
+  line-height: 1.5em;
+  color: #6a6a6a;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background: url(../img/grunge.jpg) no-repeat;
+}
+
+#top-gap
+{ 
+  height: 20px;
+}
+
+#logo
+{
+  position: absolute;
+  top: -3px;
+  left: 35px;
+}
+
+p
+{
+  margin-bottom: 21px;
+}
+
+a
+{
+  color: #606060;
+}
+
+/* SIDE CONTENT -----------------------------------------------------*/
+
+#side-content
+{
+  width: 550px;
+  float: left;
+  margin-right: 20px;
+  margin-left:40px;
+  min-height: 500px;
+}
+
+/* WP IMG ALIGNMENT  --------------------------------------------------*/
+
+
+.alignright
+{
+  display:inline;
+  float:right;
+  margin-left:24px;
+  margin-top:4px;
+}
+
+.alignleft 
+{
+  display:inline;
+  float:left;
+  margin-right:24px;
+  margin-top:4px;
+}
+
+.blockquote
+{
+  background: url(../img/blockquote.png) no-repeat;
+  display: block;
+  padding-left: 40px;
+  font-family: 'Droid Serif', serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+
+/* SIDEBAR  -----------------------------------------------------*/
+
+#sidebar
+{
+  width: 314px;
+  float: left;
+  font-size: 12px;
+}
+
+
+#sidebar .sideblock
+{
+  background: url(../img/sidebar-header.png) no-repeat;
+  margin-bottom: 20px;
+}
+
+#sidebar .sideblock a
+{
+  text-decoration: none;
+  color: #666666;
+}
+
+#sidebar .sideblock a:hover
+{
+  color: #000000;
+}
+
+#sidebar .sideblock h6
+{
+  margin-left: 10px;
+  padding-left: 22px;
+  padding-top: 9px;
+  color: #f1f1f1;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#sidebar .sideblock ul
+{
+  margin: 0px 35px;
+}
+
+#sidebar .sideblock ul li
+{
+  border-bottom: 1px solid #e8e8e8;
+  padding: 5px 0px;
+}
+
+#sidebar .sideblock ul li:last-child
+{
+  border-bottom: none;
+}
+
+/* HEADERS ------------------------------------------------------------*/
+
+h1
+{
+  font-size: 30px;
+}
+
+h2
+{
+  font-size: 28px;
+}
+
+h3
+{ 
+  font-size: 26px;
+}
+
+h4
+{
+font-size: 24px; 
+}
+
+h5
+{ 
+font-size: 22px; 
+}
+
+h6
+{
+  font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  margin-bottom: 21px;
+  line-height: 21px;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+
+/* WRAPPER ------------------------------------------------------------*/
+
+.wrapper 
+{ 
+  position: relative;
+  width: 1020px; 
+  margin: 0px auto; 
+  background: url(../img/wrapper-bg.png) no-repeat top center;
+  padding-top: 120px;
+}
+
+#content-wrap
+{
+  margin-left:20px;
+  margin-right: 20px;
+  background: #ffffff;
+  min-height: 600px;
+}
+
+#page-wrap
+{
+  margin-left:20px;
+  margin-right: 20px;
+  padding-bottom: 40px;
+}
+
+/* NAVIGATION BAR HOLDER --------------------------------------------------------*/
+
+#nav-bar-holder
+{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  z-index: 5000;
+}
+
+/* NAVIGATION --------------------------------------------------------*/
+
+#nav
+{
+  float: left;
+  display: block;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+  #nav li
+  {
+    display: block;
+    float: left;
+    line-height: 36px;
+    padding-right: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background:  url(../img/nav-bullet.png) no-repeat center right;
+   }
+
+     #nav li a
+     { 
+       text-decoration: none;
+       color: #606060;
+       padding: 0px 10px 0px 10px;
+       display: block;
+       border-radius: 5px;
+       -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+     }
+
+     #nav li:last-child
+     {
+       background: none;
+     }
+
+       #nav li:hover a,
+       #nav li.current-menu-item a
+       {
+		     color: #eee;
+         background: #363636;
+         background: -webkit-gradient(linear, left top, left bottom, from(#626262), to(#353535)); 
+         background: -moz-linear-gradient(top,  #626262,  #353535);
+		     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#626262', endColorstr='#353535', GradientType=0);
+	       text-shadow: 0 -1px rgba(0, 0, 0, 0.7);
+		     -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,.5); 
+         -moz-box-shadow: 0px 1px 2px rgba(0,0,0,.5); 
+         box-shadow: 0px 1px 2px rgba(0,0,0,.5); 
+       }
+
+
+/* FILTER ------------------------------------------------------------*/
+
+.gallery-filter li
+{
+  display: block;
+  float: left;
+  height: 100%;
+  line-height: 33px;
+  padding: 0px 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+	 .gallery-filter a
+	{ 
+	  font-size:13px;
+	  font-family:Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		color: #606060;
+		padding: 0px 10px 0px 10px;
+		display: block;	
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		background: #e9e9e9;	
+		background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e9e9e9)); 
+		background: -moz-linear-gradient(top,  #ffffff,  #e9e9e9);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e9e9e9', GradientType=0);	
+		-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
+		-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
+		box-shadow: 0px 0px 2px rgba(0,0,0,.5); 
+	}
+
+		.gallery-filter a:hover, .gallery-filter-hover
+		{
+		  color: #f1f1f1;
+		  text-shadow: 0 -1px rgba(0, 0, 0, 0.7);
+		  background: -webkit-gradient(linear, left top, left bottom, from(#626262), to(#353535)); 
+		  background: -moz-linear-gradient(top,  #626262,  #353535);
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#626262', endColorstr='#353535', GradientType=0);	
+	  }
+
+
+/* Video Gallery---------------------*/
+.video
+{
+  width:500px;
+  margin:35px auto 0 auto;	
+}
+
+/* Comments */
+
+.comments
+{
+  width:500px;
+  margin:0 auto;
+		
+}
+  .comments h5
+  {
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:15px 0 5px 5px;
+    font-size:19px;
+	
+  }
+    .comments textarea
+    {
+      width:500px;
+      height:100px;
+      padding:10px;
+      border:1px solid #B4B4B4;
+      border-radius:10px;
+      -moz-border-radius:10px;
+      -webkit-border-radius:10px;	
+     }
+	 
+.reviews
+{
+  width:500px;
+  margin:0 auto;
+}
+  .reviews h5
+  {
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:15px 0 0 0;
+    font-size:19px;
+  }
+    .profilename
+    {
+      color:#B02225;
+      font-size:12px;
+      font-weight:bold;
+    }
+      .profile-post-time
+      {
+        font-size:11px;
+        color:#0F8CD7;
+	
+      }
+/* FOOTER ------------------------------------------------------------*/
+
+#footer
+{
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  background: #252525 url(../img/png-patterns/ver-1x1.png);
+  border-bottom: #383838 solid 1px;
+  border-top: 2px solid #ccc;
+}
+
+  .footer-wrapper
+  {
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;	
+  }
+
+    .footer-wrapper
+    {
+      background: url(../img/footer-glare.png) no-repeat top center;
+    }
+
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6
+{
+  color: #dcdcdc;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+/* FOOTER COLS ------------------------------------------------------------*/
+
+#footer-cols
+{
+  display: block;
+  overflow: hidden;	
+  padding: 0px 10px;
+}
+
+  #footer-cols li
+  {
+    display: block;
+    float: left;
+    width: 300px;
+    margin: 0px 10px;
+  }
+
+    #footer-cols   li  ul  li
+    {
+      background: url("../img/footer-divider.png") repeat-x scroll left bottom ;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+    }
+
+      #footer-cols   li   ul   li:last-child
+      {
+        background: none;
+      }
+
+         #footer-cols   li a
+         {
+           text-decoration: none;
+           color: #7d7d7d;
+         }
+
+            #footer-cols  li a:hover
+            {
+              color: #fff;
+            }
+
+/* FOOTER-BOTTOM ------------------------------------------------------------*/
+
+#footer-bottom
+{ 
+  overflow: hidden;
+  background: #0e0e0e;
+  font-size: 12px;
+  padding:10px;
+	
+}
+
+.bottom-wrapper
+{
+  overflow: hidden;
+  width: 940px;
+  margin: 0 auto;	
+}
+
+/* END FOOTER BOTTOM */
+
+.highlight
+{
+	background-color: #ffff00;
+}
+
+.error-message
+{
+	color: #ff0000;
+}
+
+#flashMessage
+{
+	color: #ff0000;
+	padding: 10px 0 0 20px;
+}
