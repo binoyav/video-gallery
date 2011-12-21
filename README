@@ -1,0 +1,7 @@
+Video Gallery
+================================================
+Installation
+------------
+Create a database
+Import rating.sql into the database
+Give the database user name, password and database name in Config/database.php 
