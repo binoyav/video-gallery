@@ -3,6 +3,7 @@
   <head>
   <meta charset="utf-8">
   <title><?php echo $title_for_layout?></title>
+    <base href="http://localhost/video-gallery/" />
 		<?php echo $this->Html->css('style'); ?>
 		<?php echo $this->Html->script('jquery.min'); ?>
 		

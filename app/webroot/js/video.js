@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
   
-  $('#btnAddComment').on('click', function(event)
+  $(document).on('click', '#btnAddComment', function(event)
   {
     if ($('#commentDescription').val() != false)
     {
@@ -32,7 +32,7 @@ $(document).ready(function()
     }
   });
 
-//On click of video links from navigation
+  // On click of video links from navigation
   $('.cat-list').on("click", "a",
 			function(event)
 			{

@@ -2,6 +2,9 @@
 if (!empty($selectedVideo)): 
 ?>
   <div class="video">
+    <p>
+        <strong><?php echo $selectedVideo['Video']['title']; ?></strong>
+    </p>
     <?php 
       echo $this->Html->image('../files/' . $selectedVideo['Video']['thumbnail'], 
                                 array(
@@ -65,4 +68,3 @@ if (!empty($selectedVideo)):
 <?php
 endif;
 ?>
-<?php echo $this->Html->script('video'); ?>

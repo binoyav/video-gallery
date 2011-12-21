@@ -5325,3 +5325,267 @@
 #2 /var/www/rating/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 /var/www/rating/index.php(40): require('/var/www/rating...')
 #4 {main}
+2011-12-21 17:00:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:00:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:00:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:01:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:14 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:30 Error: [MissingActionException] Action VideosController::add() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:02:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:36 Error: [MissingActionException] Action VideosController::add() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:02:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:42 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:48 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:50 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:02:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:03:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:03:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:03:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:03:21 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:03:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:05:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:07:47 Error: [MissingActionException] Action VideosController::get_video_details() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:07:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:07:52 Error: [MissingActionException] Action VideosController::get_video_details() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:07:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:08:08 Error: [MissingActionException] Action VideosController::get_video_details() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:08:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:08:19 Error: [MissingActionException] Action VideosController::get_video_details() could not be found.
+#0 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/video-gallery/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 17:08:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:25:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:25:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:26:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:27:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:32:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:36:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:38:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:38:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:39:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:58:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:58:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 17:59:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:00:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:00:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:02:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:05:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:06:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:06:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:06:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:07:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:07:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:07:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-21 18:07:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/video-gallery/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
