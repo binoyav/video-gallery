@@ -11,9 +11,12 @@ Installation
 Create a database
 Import gallery.sql to the newly created database
 Give the database user name, password and database name in app/Config/database.php 
+Download the files from 
+https://github.com/binoyav/video-gallery/downloads
+
 Extract the given zip file to the virtual directory
 Give the project folder name to HTTP_ROOT variable defined in app/Config/bootstrap.php
-
+Give write permission to app/tmp folder
 ======================================================================
 Usage
 ------
