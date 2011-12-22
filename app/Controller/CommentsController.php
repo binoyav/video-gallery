@@ -29,7 +29,7 @@ class CommentsController extends AppController
 																						'User.name'
 																					), 
 																					$this->Comment->id
-																					);
+																				);
 					
 					$msg = __('The Comment has been saved');
 				}

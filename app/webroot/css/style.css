@@ -1,13 +1,13 @@
 
 .clear
 {
-  clear:both;
-  height:1px;
+  clear: both;
+  height: 1px;
 }
 
 .inv
 { 
-  display:none;
+  display: none;
 }
 
 /* GENERAL ------------------------------------------------------------*/
@@ -51,7 +51,7 @@ a
   width: 550px;
   float: left;
   margin-right: 20px;
-  margin-left:40px;
+  margin-left: 40px;
   min-height: 500px;
 }
 
@@ -61,16 +61,16 @@ a
 .alignright
 {
   display:inline;
-  float:right;
-  margin-left:24px;
-  margin-top:4px;
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px;
 }
 
 .alignleft 
 {
-  display:inline;
-  float:left;
-  margin-right:24px;
+  display: inline;
+  float: left;
+  margin-right: 24px;
   margin-top:4px;
 }
 
@@ -170,7 +170,7 @@ h6
   font-size: 20px;
 }
 
-h1,h2,h3,h4,h5,h6
+h1, h2, h3, h4, h5, h6
 {
   margin-bottom: 21px;
   line-height: 21px;
@@ -193,7 +193,7 @@ h1,h2,h3,h4,h5,h6
 
 #content-wrap
 {
-  margin-left:20px;
+  margin-left: 20px;
   margin-right: 20px;
   background: #ffffff;
   min-height: 600px;
@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6
 
 #page-wrap
 {
-  margin-left:20px;
+  margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 40px;
 }
@@ -283,7 +283,7 @@ h1,h2,h3,h4,h5,h6
 
 	 .gallery-filter a
 	{ 
-	  font-size:13px;
+	  font-size: 13px;
 	  font-family:Arial, Helvetica, sans-serif;
 		text-decoration: none;
 		color: #606060;
@@ -328,22 +328,22 @@ h1,h2,h3,h4,h5,h6
 }
   .comments h5
   {
-    font-size:13px;
+    font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
-    padding:15px 0 5px 5px;
-    font-size:19px;
+    padding: 15px 0 5px 5px;
+    font-size: 19px;
 	
   }
     .comments textarea
     {
       width:500px;
-      height:100px;
-      padding:10px;
-      border:1px solid #B4B4B4;
-      border-radius:10px;
-      -moz-border-radius:10px;
-      -webkit-border-radius:10px;	
+      height: 100px;
+      padding: 10px;
+      border: 1px solid #B4B4B4;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;	
      }
 	 
 .reviews
@@ -353,24 +353,26 @@ h1,h2,h3,h4,h5,h6
 }
   .reviews h5
   {
-    font-size:13px;
+    font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
-    padding:15px 0 0 0;
-    font-size:19px;
+    padding: 15px 0 0 0;
+    font-size: 19px;
   }
-    .profilename
-    {
-      color:#B02225;
-      font-size:12px;
-      font-weight:bold;
-    }
-      .profile-post-time
-      {
-        font-size:11px;
-        color:#0F8CD7;
-	
-      }
+  
+.profilename
+{
+  color:#B02225;
+  font-size: 12px;
+  font-weight:bold;
+}
+.profile-post-time
+{
+  font-size: 11px;
+  color:#0F8CD7;
+
+}
+
 /* FOOTER ------------------------------------------------------------*/
 
 #footer
@@ -383,17 +385,13 @@ h1,h2,h3,h4,h5,h6
   border-top: 2px solid #ccc;
 }
 
-  .footer-wrapper
-  {
-    overflow: hidden;
-    width: 980px;
-    margin: 0 auto;	
-  }
-
-    .footer-wrapper
-    {
-      background: url(../img/footer-glare.png) no-repeat top center;
-    }
+.footer-wrapper
+{
+  overflow: hidden;
+  width: 980px;
+  margin: 0 auto;	
+	background: url(../img/footer-glare.png) no-repeat top center;
+}
 
 #footer h1,
 #footer h2,
@@ -454,7 +452,7 @@ h1,h2,h3,h4,h5,h6
   overflow: hidden;
   background: #0e0e0e;
   font-size: 12px;
-  padding:10px;
+  padding: 10px;
 	
 }
 

@@ -1,6 +1,6 @@
 <?php
 class AdminAppController extends AppController
 {
-  public $layout = 'admin';
+  var $layout = 'admin';
 }
 ?>

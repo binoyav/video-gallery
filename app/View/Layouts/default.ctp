@@ -1,12 +1,14 @@
 <!DOCTYPE  html>
 <html>
   <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title><?php echo $title_for_layout?></title>
-    <base href="http://localhost/video-gallery/" />
-		<?php echo $this->Html->css('style'); ?>
-		<?php echo $this->Html->script('jquery.min'); ?>
-		
+    <base href="<?php echo HTTP_ROOT; ?>" />
+    <?php 
+      echo $this->Html->css('reset');
+		  echo $this->Html->css('style');
+		  echo $this->Html->script('jquery.min'); 
+		?>
 	</head>
 	<body>
 		<div id="headerimgs">
@@ -57,14 +59,15 @@
                                           );
              ?>
           <?php     
-          endif; ?>
-					<li><a href="#">Contact</a></li>
+          endif; 
+          ?>
 				</ul>
 			</div>
 	        <div id="content-wrap">
             <?php 
-    echo $this->Session->flash(); 
-                  echo $content_for_layout; ?>
+                  echo $this->Session->flash(); 
+                  echo $content_for_layout; 
+            ?>
           </div>
 		<!-- FOOTER -->
 		<div id="footer">
@@ -76,16 +79,6 @@
 					<li>
 						<h6>About the Gallery</h6>
 						<p>Pellentesque accumsan porttitor, accumsan porttitor ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Tincidunt quis, accumsan porttitor facilisis habitant morbi tristique senectus accumsan porttitor et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,  Aenean ultricies mi vitae est. Tincidunt quis feugiat vitae.</p> 
-					</li>
-					<li>
-						<h6>Categories</h6>
-						<ul>
-							<li><a href="#">All</a></li>
-							<li><a href="#/">Action</a></li>
-							<li><a href="#">Commedy</a></li>
-							<li><a href="#">Cartoons</a></li>
-							<li><a href="#">Drama</a></li>
-						</ul>
 					</li>
 					<li>
 						<div id="tweets" class="footer-col tweet">

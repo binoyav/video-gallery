@@ -3,7 +3,6 @@ App::uses('AppController', 'Controller');
 
 class VideosController extends AppController
 {
-	public $layout  = 'default';
 	
 	public function index()
   {
@@ -11,13 +10,13 @@ class VideosController extends AppController
     $this->set('genres', $this->Video->Genre->find('list'));
     $this->set('languages', $this->Video->Language->find('list'));
 
-    $this->_setConditon();
-    $this->_setVideos();
+    $this->setConditon();
+    $this->setVideos();
     
 	}
 	
 	// For filter condition
-	function _setConditon()
+	private function setConditon()
 	{
 		if (isset($this->request->named['genre']))
 		{
@@ -60,7 +59,7 @@ class VideosController extends AppController
 	}
 	
 	// Set the videos for view
-	function _setVideos()
+	private function setVideos()
 	{
 		$this->Video->recursive = 0;
 		$videos = $this->paginate();

@@ -17,6 +17,7 @@ if (!empty($selectedVideo)):
         <?php echo $selectedVideo['Video']['description']; ?>
     </p>
   </div>
+  
   <div class="comments"><h5>Comments</h5>
     <span id="loginMessage" class="inv">
       <?php echo __('Please %s to post comments.', 
@@ -41,10 +42,11 @@ if (!empty($selectedVideo)):
                                                         )
                                    ); 
         ?><br />
-	      <input name="" type="button" id="btnAddComment" value="submit">
+	      <input name="" type="button" id="btnAddComment" value="submit" />
       </form>
     </div>
   </div>
+  
   <div class="reviews">
     <?php 
     if (!empty($selectedVideoComments)):
