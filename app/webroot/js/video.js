@@ -1,6 +1,30 @@
 $(document).ready(function()
 {
   
+  $('#searchField').focus(function()
+  {
+    if ($(this).val() == 'Search...')
+    {
+      $(this).val('');
+    }
+  });
+  
+  $('#searchField').blur(function()
+  {
+    if ($(this).val() == false)
+    {
+      $(this).val('Search...');
+    }
+  });
+  
+  $('#searchButton').click(function()
+  {
+    if ($(this).val() != 'Search...')
+    {
+	  $('#searchForm').submit();
+    }
+  });
+
   $(document).on('click', '#btnAddComment', function(event)
   {
     if ($('#commentDescription').val() != false)
@@ -28,6 +52,10 @@ $(document).ready(function()
     		$('.reviews').prepend(comment);
     	  }
 	    }
+      ).error(function()
+        {
+	      $('#loginMessage').show().addClass('highlight');
+        }
       );
     }
   });
@@ -48,5 +76,6 @@ $(document).ready(function()
 				}
 			  });  
 		   });
+  
   
 });

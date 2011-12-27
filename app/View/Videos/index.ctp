@@ -1,24 +1,56 @@
 <div id="page-wrap">
-  <div class="page-title"><h1>Our Video Gallery</div>
-  <ul id="portfolio-filter" class="gallery-filter">
-	  <li>Filter: </li>
-	  <li><?php echo $this->Html->link(__('All'), array(
+
+  <div class="searchbox">
+    <?php 
+      echo $this->Form->create('Video', array(
+                                              'class' => 'searchform',
+                                              'id' => 'searchForm',
+                                              'type' => 'get'
+                                            )
+                                  );
+      $search = __('Search...');
+
+      if (isset($this->request->named['q']) || isset($this->request->query['q'])):
+        $search = isset($this->request->named['q']) ? $this->request->named['q'] : 
+                                                    $this->request->query['q'];
+      endif;
+      
+      echo $this->Form->input('q', array(
+                                          'id' => 'searchField',
+                                          'class' => 'searchfield',
+                                          'default' => $search,
+                                          'div' => false,
+                                          'label' => false
+                                       )
+                                 );
+    ?>
+      <input class="searchbutton" id="searchButton" value="Go" type="button">
+    </form>
+  </div>
+
+	<div class="page-title">
+		<h1>Our Video Gallery</h1>
+	</div>
+	<ul id="portfolio-filter" class="gallery-filter">
+		<li>Filter:</li>
+		<li>
+			<?php echo $this->Html->link(__('All'), array(
                                                   'controller' => 'videos', 
                                                   'action' => 'index',
                                                   'genre' => ''
                                                 )
                                     ); 
         ?>
-    </li>
-	  <?php foreach ($genres as $genreId => $genreName):
-             $class = '';
-	           if ($selGenreId == $genreId)
-             { 
-               $class = 'gallery-filter-hover'; 
-             } 
+		</li>
+		<?php 
+      foreach ($genres as $genreId => $genreName):
+        $class = '';
+	      if ($selGenreId == $genreId):
+          $class = 'current-menu-item'; 
+        endif;      
 	  ?>
-	  <li>
-	     <?php echo $this->Html->link($genreName, array(
+		<li>
+			<?php echo $this->Html->link($genreName, array(
                                                   'controller' => 'videos', 
                                                   'action' => 'index', 
                                                   'genre' => $genreId,
@@ -28,69 +60,73 @@
                                                 )
                                    );
       ?>
-    </li>
-	  <?php endforeach; ?>
-  </ul>
-  <div class="clear"></div>
-  <ul class="gallery-filter">
-    <li>Filter: </li>
-    <li><?php echo $this->Html->link(__('All'), array(
-                                                  'controller' => 'videos', 
-                                                  'action' => 'index',
-                                                  'language' => ''
-                                                )
+		</li>
+		<?php endforeach; ?>
+	</ul>
+	<div class="clear"></div>
+	<ul class="gallery-filter">
+		<li>Filter:</li>
+		<li>
+			<?php 
+        echo $this->Html->link(__('All'), array(
+                                             'controller' => 'videos', 
+                                             'action' => 'index',
+                                             'language' => ''
+                                          )
                                     ); 
         ?>
-    </li>
-    <?php foreach ($languages as $langId => $lang):
-            $class = '';
-            if ($selLangId == $langId)
-            { 
-              $class = 'gallery-filter-hover'; 
-            }
+		</li>
+		<?php 
+      foreach ($languages as $langId => $lang):
+        $class = '';
+        if ($selLangId == $langId):
+          $class = 'current-menu-item'; 
+        endif;
     ?>
-    <li><?php echo $this->Html->link($lang, array(
+		<li <?php echo 'class="' . $class . '"'; ?>>
+			<?php 
+        echo $this->Html->link($lang, array(
                                              'controller' => 'videos', 
                                              'action' => 'index', 
                                              'language' => $langId
                                            ),
-                                            array(
-                                              'class' => $class
-                                            )
-                                      ); 
-         ?>
-    </li>
-    <?php endforeach; ?>
-  </ul>
+                                      array(
+                                        'class' => $class
+                                      )
+                              ); 
+      ?>
+		</li>
+		<?php endforeach; ?>
+	</ul>
 	<div class="clear"></div>
-  <div id="sidebar">
-     <div class="sideblock">
-       <h6 class="side-title"><?php echo __('Videos'); ?></h6>
-       <ul class="cat-list">
-       <?php
+	<div id="sidebar">
+		<div class="sideblock">
+			<h6 class="side-title">
+				<?php echo __('Videos'); ?>
+			</h6>
+			<ul class="cat-list">
+				<?php
          if (!empty($videos)):
-       ?>
-           <?php foreach ($videos as $video): ?>
-           <li><a href="#" id="<?php echo $video['Video']['id'] ; ?>">
-                 <?php echo $video['Video']['title'] ; ?>
-               </a>
-           </li>
-          <?php 
-                 endforeach;
-           ?>
-         
-         <?php         
-           else:
-              echo '<li>' . __('No videos found') . '</li>';
-            endif;
-          ?>
-        </ul>
-      </div>
-	  </div>
-		<div id="side-content">
-		  <?php echo $this->element('video'); ?>
+        ?>
+				<?php 
+          foreach ($videos as $video): ?>
+				<li>
+				    <a href="#" id="<?php echo $video['Video']['id'] ; ?>">
+						  <?php echo $video['Video']['title'] ; ?>
+				    </a>
+				</li>
+				<?php 
+          endforeach;
+        else:
+          echo '<li>' . __('No videos found') . '</li>';
+        endif;
+        ?>
+			</ul>
 		</div>
-		<div class="clear"></div>
-  </div>
+	</div>
+	<div id="side-content">
+		<?php echo $this->element('video'); ?>
+	</div>
+	<div class="clear"></div>
 </div>
 <?php echo $this->Html->script('video'); ?>

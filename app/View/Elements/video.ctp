@@ -3,7 +3,9 @@ if (!empty($selectedVideo)):
 ?>
   <div class="video">
     <p>
-        <strong><?php echo $selectedVideo['Video']['title']; ?></strong>
+      <strong>
+        <?php echo $selectedVideo['Video']['title']; ?>
+      </strong>
     </p>
     <?php 
       echo $this->Html->image('../files/' . $selectedVideo['Video']['thumbnail'], 
@@ -14,11 +16,14 @@ if (!empty($selectedVideo)):
                              ); 
     ?>
     <p>
-        <?php echo $selectedVideo['Video']['description']; ?>
+      <?php echo $selectedVideo['Video']['description']; ?>
     </p>
   </div>
   
-  <div class="comments"><h5>Comments</h5>
+  <div class="comments">
+    <h5>
+      Comments
+    </h5>
     <span id="loginMessage" class="inv">
       <?php echo __('Please %s to post comments.', 
                   $this->Html->link(__('login'),array(
@@ -26,23 +31,26 @@ if (!empty($selectedVideo)):
                                                   'action' => 'login'
                                                 )
                                     )
-                 ); ?>
+                 ); 
+      ?>
     </span>
     <div id="commentForm">
       <div id="commentMsg"></div>
-	    <?php echo $this->Form->create('Comment', array('id' => 'frmComment'));
-	          echo $this->Form->input('description', array(
+	    <?php 
+        echo $this->Form->create('Comment', array('id' => 'frmComment'));
+	      echo $this->Form->input('description', array(
                                                     'type' => 'textarea',
                                                     'id' => 'commentDescription'
                                                   )
                                     );
-            echo $this->Form->input('Comment.video_id', array(
+        echo $this->Form->input('Comment.video_id', array(
                                                           'value' => $videoId,
                                                           'type' => 'hidden'
                                                         )
                                    ); 
-        ?><br />
-	      <input name="" type="button" id="btnAddComment" value="submit" />
+      ?>
+      <br />
+	    <input name="" type="button" id="btnAddComment" value="submit" />
       </form>
     </div>
   </div>
@@ -55,7 +63,8 @@ if (!empty($selectedVideo)):
         <p>
           <span class="profilename">
             <?php echo h($videoComment['User']['name']); ?>
-          </span><br />
+          </span>
+          <br />
           <?php echo h($videoComment['Comment']['description']); ?>
           <br />
           <span class="profile-post-time">

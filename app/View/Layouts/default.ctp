@@ -28,13 +28,13 @@
                                             ), 
                                         'id' => 'logo'
                                       )
-                                    ) 
+                                    ); 
       ?>
 			<div id="nav-bar-holder">
 				<ul id="nav" class="sf-menu">
 					<li  class="current-menu-item"><a href="#">Home</a></li>
 					<?php 
-					if (!$this->Session->read('User.id')):
+					if (!AuthComponent::user('id')):
           ?>
 					   <li><?php echo $this->Html->link(__('Login'), array(
                                                'controller' => 'users',
