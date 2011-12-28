@@ -11,9 +11,10 @@ class UsersController extends AppController
   public function beforeFilter()
   {
     parent::beforeFilter();
-    $this->Auth->allow('registration', 'captcha');
+    $this->Auth->allow('registration', 'captcha', 'changeLanguage');
+  //  $this->Auth->allow('*');
   }
-
+  
   public function login()
   {
     if ($this->request->is('post'))
@@ -72,6 +73,12 @@ class UsersController extends AppController
   function logout()
   {
     $this->redirect($this->Auth->logout());
+  }
+  
+  function changeLanguage($language)
+  {
+    $this->Session->write('language', $language);
+    $this->redirect($this->referer());
   }
 }
 ?>

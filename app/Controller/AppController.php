@@ -2,10 +2,6 @@
 class AppController extends Controller
 {
 
- /*  public $helpers = array(
-    'Session'
-  ); */
-
   public $components = array(
     'Session', 
     'Auth' => array(
@@ -24,8 +20,13 @@ class AppController extends Controller
             'password' => 'passwd'
           )
         )
-      )
-    )
+      )/* ,
+      'authorize' => array(
+        'Actions' => array(
+          'actionPath' => 'controllers'
+        ),
+      ), */
+    ),
   );
   
   function beforeFilter()
@@ -34,6 +35,14 @@ class AppController extends Controller
             'controller' => 'videos',
             'action' => 'index'
         );
+    
+    if ($this->Session->check('language'))
+    {
+      if (Configure::read('Config.language') != $this->Session->read('language'))
+      {
+        Configure::write('Config.language', $this->Session->read('language'));
+      }
+    }
   }
 
   function checkLogin()

@@ -63,13 +63,14 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
- CakePlugin::load(array(
+ CakePlugin::loadAll(array(
  										'Admin' => array(
  																'routes' => true
- 															)
+ 															),
+ 										/* 'AclExtras' */					
  									)
  								);
-
  define('DEFAULT_PAGE_LIMIT', 20);
  define('HTTP_ROOT', 'http://' . $_SERVER['HTTP_HOST'] . '/video-gallery/');
+ 
  

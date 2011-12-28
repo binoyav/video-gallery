@@ -11,6 +11,30 @@
 		?>
 	</head>
 	<body>
+	  <div class="flags">
+	    <?php echo $this->Html->image('eng.jpg', array(
+                                     'alt' => __('English'),
+                                     'title' => __('English'), 
+                                     'url' => array(
+                                       'controller' => 'users',
+                                       'action' => 'changeLanguage',
+                                       'eng'
+                                     )
+                                   )
+                                 );
+
+          echo $this->Html->image('fre.jpg', array(
+                                     'alt' => __('French'),
+                                     'title' => __('French'),    
+                                     'url' => array(
+                                       'controller' => 'users',
+                                       'action' => 'changeLanguage',
+                                       'fre'
+                                     )
+                                   )
+                                 );
+      ?>
+    </div>
 		<div id="headerimgs">
 			<div id="headerimg1" class="headerimg"></div>
 			<div id="headerimg2" class="headerimg"></div>

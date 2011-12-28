@@ -1,0 +1,269 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-27 18:52+0530\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/CommentsController.php:36
+msgid "The Comment has been saved"
+msgstr ""
+
+#: Controller/CommentsController.php:40
+msgid "The Comment could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CommentsController.php:46
+msgid "Please login"
+msgstr ""
+
+#: Controller/UsersController.php:23
+msgid "Invalid username or password, try again"
+msgstr "Error in login"
+
+#: Controller/UsersController.php:38
+msgid "Successfully registered"
+msgstr ""
+
+#: Controller/UsersController.php:46
+msgid "Could not able to register. Please, try again."
+msgstr ""
+
+#: Controller/VideosController.php:113
+#: Plugin/Admin/Controller/VideosController.php:65;125
+msgid "Invalid video"
+msgstr ""
+
+#: Plugin/Admin/Controller/GenresController.php:22;49
+msgid "The genre has been saved"
+msgstr ""
+
+#: Plugin/Admin/Controller/GenresController.php:29
+msgid "The genre could not be saved. Please, \n                                                                  try again."
+msgstr ""
+
+#: Plugin/Admin/Controller/GenresController.php:42
+msgid "Invalid genre"
+msgstr ""
+
+#: Plugin/Admin/Controller/GenresController.php:56
+msgid "The genre could not be saved. Please, \n\t\t                                                              try again."
+msgstr ""
+
+#: Plugin/Admin/Controller/LanguagesController.php:22;48
+msgid "The language has been saved"
+msgstr ""
+
+#: Plugin/Admin/Controller/LanguagesController.php:29
+msgid "The language could not be saved. Please, \n                                                                try again."
+msgstr ""
+
+#: Plugin/Admin/Controller/LanguagesController.php:41
+msgid "Invalid language"
+msgstr ""
+
+#: Plugin/Admin/Controller/LanguagesController.php:55
+msgid "The language could not be saved. Please, \n\t\t                                                            try again."
+msgstr ""
+
+#: Plugin/Admin/Controller/VideosController.php:41;91
+msgid "The video has been saved"
+msgstr ""
+
+#: Plugin/Admin/Controller/VideosController.php:48;98
+msgid "The video could not be saved. Please, \n                                                                  try again."
+msgstr ""
+
+#: Plugin/Admin/Controller/VideosController.php:130
+msgid "Video deleted"
+msgstr ""
+
+#: Plugin/Admin/Controller/VideosController.php:136
+msgid "Video was not deleted"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/header.ctp:3
+#: Plugin/Admin/View/Videos/index.ctp:2
+#: View/Videos/index.ctp:105
+msgid "Videos"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/header.ctp:4
+#: Plugin/Admin/View/Genres/index.ctp:2
+msgid "Genres"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/header.ctp:5
+#: Plugin/Admin/View/Languages/index.ctp:2
+msgid "Languages"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/navigation.ctp:2
+#: Plugin/Admin/View/Genres/add.ctp:12
+#: Plugin/Admin/View/Genres/edit.ctp:13
+#: Plugin/Admin/View/Genres/index.ctp:6;23
+#: Plugin/Admin/View/Languages/add.ctp:12
+#: Plugin/Admin/View/Languages/edit.ctp:13
+#: Plugin/Admin/View/Languages/index.ctp:6;25
+#: Plugin/Admin/View/Videos/add.ctp:17
+#: Plugin/Admin/View/Videos/edit.ctp:18
+#: Plugin/Admin/View/Videos/index.ctp:9;50
+msgid "Actions"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/navigation.ctp:4
+#: Plugin/Admin/View/Genres/add.ctp:14
+#: Plugin/Admin/View/Genres/edit.ctp:17
+msgid "List Genres"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/navigation.ctp:10
+#: Plugin/Admin/View/Videos/add.ctp:19
+#: Plugin/Admin/View/Videos/edit.ctp:22
+msgid "List Videos"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/navigation.ctp:17
+#: Plugin/Admin/View/Videos/index.ctp:54
+msgid "New Video"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/pagination.ctp:4
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/pagination.ctp:11
+msgid "previous"
+msgstr ""
+
+#: Plugin/Admin/View/Elements/pagination.ctp:13
+msgid "next"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/add.ctp:4
+msgid "Add Genre"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/add.ctp:9
+#: Plugin/Admin/View/Genres/edit.ctp:10
+#: Plugin/Admin/View/Languages/add.ctp:9
+#: Plugin/Admin/View/Languages/edit.ctp:10
+#: Plugin/Admin/View/Videos/add.ctp:14
+#: Plugin/Admin/View/Videos/edit.ctp:15
+msgid "Submit"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/edit.ctp:4
+msgid "Edit Genre"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/edit.ctp:16
+#: Plugin/Admin/View/Genres/index.ctp:15
+#: Plugin/Admin/View/Videos/edit.ctp:21
+#: Plugin/Admin/View/Videos/index.ctp:36
+msgid "Delete"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/edit.ctp:16
+#: Plugin/Admin/View/Genres/index.ctp:15
+#: Plugin/Admin/View/Videos/edit.ctp:21
+#: Plugin/Admin/View/Videos/index.ctp:41
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/index.ctp:14
+#: Plugin/Admin/View/Languages/index.ctp:15
+#: Plugin/Admin/View/Videos/index.ctp:30
+msgid "Edit"
+msgstr ""
+
+#: Plugin/Admin/View/Genres/index.ctp:25
+msgid "New Genre"
+msgstr ""
+
+#: Plugin/Admin/View/Languages/add.ctp:4
+msgid "Add Language"
+msgstr ""
+
+#: Plugin/Admin/View/Languages/add.ctp:14
+#: Plugin/Admin/View/Languages/edit.ctp:15
+msgid "List Languages"
+msgstr ""
+
+#: Plugin/Admin/View/Languages/edit.ctp:4
+msgid "Edit Language"
+msgstr ""
+
+#: Plugin/Admin/View/Languages/index.ctp:27
+msgid "New Language"
+msgstr ""
+
+#: Plugin/Admin/View/Videos/add.ctp:4
+msgid "Add Video"
+msgstr ""
+
+#: Plugin/Admin/View/Videos/edit.ctp:4
+msgid "Edit Video"
+msgstr ""
+
+#: View/Elements/video.ctp:28
+msgid "Please %s to post comments."
+msgstr ""
+
+#: View/Elements/video.ctp:29
+msgid "login"
+msgstr ""
+
+#: View/Layouts/default.ctp:39
+msgid "Login"
+msgstr ""
+
+#: View/Layouts/default.ctp:45
+msgid "Register"
+msgstr ""
+
+#: View/Layouts/default.ctp:55
+msgid "Logout"
+msgstr ""
+
+#: View/Videos/index.ctp:11
+msgid "Search"
+msgstr ""
+
+#: View/Videos/index.ctp:37;71
+msgid "All"
+msgstr ""
+
+#: View/Videos/index.ctp:121
+msgid "No videos found"
+msgstr ""
+
+#: Model/User.php:validation for field name
+msgid "Please give your name"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Please give a valid email"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Email aleready exists"
+msgstr ""
+
+#: Model/User.php:validation for field passwd
+msgid "Please give the password"
+msgstr ""
+
+#: Model/User.php:validation for field passwd
+msgid "Passwords do not match"
+msgstr ""
+

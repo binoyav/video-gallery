@@ -29,7 +29,7 @@
   </div>
 
 	<div class="page-title">
-		<h1>Our Video Gallery</h1>
+		<h1><?php echo __('Our Video Gallery'); ?></h1>
 	</div>
 	<ul id="portfolio-filter" class="gallery-filter">
 		<li>Filter:</li>
