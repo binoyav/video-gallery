@@ -5,6 +5,12 @@ class AppController extends Controller
   public $components = array(
     'Session', 
     'Auth' => array(
+      'loginAction' => array(
+        'controller' => 'users', 
+        'action' => 'login', 
+        'admin' => false, 
+        'plugin' => false
+      ),
       'loginRedirect' => array(
         'controller' => 'videos', 
         'action' => 'index'
@@ -20,22 +26,19 @@ class AppController extends Controller
             'password' => 'passwd'
           )
         )
-      )/* ,
+      ),
       'authorize' => array(
         'Actions' => array(
-          'actionPath' => 'controllers'
+          'actionPath' => 'controllers',
+           'userModel' => 'User',
         ),
-      ), */
+      ),
     ),
+    'Acl'
   );
   
   function beforeFilter()
   {
-    $this->Auth->loginRedirect = array(
-            'controller' => 'videos',
-            'action' => 'index'
-        );
-    
     if ($this->Session->check('language'))
     {
       if (Configure::read('Config.language') != $this->Session->read('language'))
@@ -44,6 +47,11 @@ class AppController extends Controller
       }
     }
   }
+  /* 
+  function isAuthorized($user) {
+    // return false;
+    return $this->Auth->loggedIn();
+  } */
 
   function checkLogin()
   {

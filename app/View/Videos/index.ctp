@@ -104,24 +104,9 @@
 			<h6 class="side-title">
 				<?php echo __('Videos'); ?>
 			</h6>
-			<ul class="cat-list">
-				<?php
-         if (!empty($videos)):
-        ?>
-				<?php 
-          foreach ($videos as $video): ?>
-				<li>
-				    <a href="#" id="<?php echo $video['Video']['id'] ; ?>">
-						  <?php echo $video['Video']['title'] ; ?>
-				    </a>
-				</li>
-				<?php 
-          endforeach;
-        else:
-          echo '<li>' . __('No videos found') . '</li>';
-        endif;
-        ?>
-			</ul>
+			<div id="video-list">
+				<?php echo $this->element('video_list'); ?>
+			</div>
 		</div>
 	</div>
 	<div id="side-content">

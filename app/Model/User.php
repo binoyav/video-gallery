@@ -9,7 +9,7 @@ class User extends AppModel
   
   public $captcha = '';
 
-  /* public $belongsTo = array(
+  public $belongsTo = array(
     'Group'
   );
   
@@ -17,7 +17,7 @@ class User extends AppModel
     'Acl' => array(
       'type' => 'requester'
     )
-  ); */
+  );
   
   public $validate = array(
     'name' => array(
@@ -61,16 +61,16 @@ class User extends AppModel
   );
   
   // For Acl
-  /* function bindNode($user)
+  function bindNode($user)
   {
     return array(
         'model' => 'Group',
         'foreign_key' => $user['User']['group_id']
     );
-  } */
+  }
   
   // For Acl
-  /* function parentNode()
+  function parentNode()
   {
     if (!$this->id && empty($this->data))
     {
@@ -83,7 +83,8 @@ class User extends AppModel
     }
     else
     {
-      $groupId = 3; //$this->field('group_id');
+      $groupId = USER_GROUP_ID; //$this->field('group_id');
+      $this->data['User']['group_id'] = $groupId; 
     }
     
     if (!$groupId)
@@ -98,11 +99,16 @@ class User extends AppModel
         )
       );
     }
-  } */
+  }
 
   function beforeSave()
   {
     $temp = $this->data['User']['passwd'];
+    if (!isset($this->data['User']['group_id']) || 
+          empty($this->data['User']['group_id']))
+    {
+      $this->data['User']['group_id'] = USER_GROUP_ID;
+    }
     $this->data['User']['passwd'] = AuthComponent::password($temp);
     return true;
   }

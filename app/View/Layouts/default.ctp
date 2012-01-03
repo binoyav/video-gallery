@@ -89,7 +89,8 @@
 			</div>
 	        <div id="content-wrap">
             <?php 
-                  echo $this->Session->flash(); 
+                  echo $this->Session->flash('auth');
+                  echo $this->Session->flash();  
                   echo $content_for_layout; 
             ?>
           </div>
