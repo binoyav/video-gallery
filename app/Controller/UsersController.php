@@ -11,7 +11,7 @@ class UsersController extends AppController
   public function beforeFilter()
   {
     parent::beforeFilter();
-    $this->Auth->allow('registration', 'captcha', 'changeLanguage', 'logout');
+    $this->Auth->allow('login', 'registration', 'captcha', 'changeLanguage', 'logout');
    // $this->Auth->allow('*');
   }
   
