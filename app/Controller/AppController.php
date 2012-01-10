@@ -53,7 +53,7 @@ class AppController extends Controller
     return $this->Auth->loggedIn();
   } */
 
-  function checkLogin()
+  protected function checkLogin()
   {
     $userId = $this->Session->read('User.id');
     

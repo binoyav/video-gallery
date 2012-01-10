@@ -8,7 +8,7 @@
 {
 	background-color:#ffffff;
 	padding:5px;
-	margin:5px auto 5px auto;
+	margin:0px auto 5px auto;
 	/*max-width:600px;*/
 }
 #plugin_acl tr
@@ -34,6 +34,7 @@ ul.acl_links
 	margin: 0 ;
 	padding: 0 ;
 	overflow: hidden ;
+  padding: 10px;
 }
 ul.acl_links li
 {

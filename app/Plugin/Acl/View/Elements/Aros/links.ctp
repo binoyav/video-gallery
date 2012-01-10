@@ -14,7 +14,7 @@ else
 {
     $links[] = $this->Html->link(__d('acl', 'Roles permissions'), '/admin/acl/aros/role_permissions', array('class' => ($selected == 'admin_role_permissions' || $selected == 'admin_ajax_role_permissions' )? 'selected' : null));
 }
-$links[] = $this->Html->link(__d('acl', 'Users permissions'), '/admin/acl/aros/user_permissions', array('class' => ($selected == 'admin_user_permissions' )? 'selected' : null));
+//$links[] = $this->Html->link(__d('acl', 'Users permissions'), '/admin/acl/aros/user_permissions', array('class' => ($selected == 'admin_user_permissions' )? 'selected' : null));
 
 echo $this->Html->nestedList($links, array('class' => 'acl_links'));
 ?>

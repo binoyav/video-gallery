@@ -10,4 +10,9 @@ Router::connect('/Admin', array(
   'action' => 'index', 
   'plugin' => 'Admin'
 ));
+
+Router::connect('/admin/users/login', array(
+    'controller' => 'users',
+    'action' => 'login',
+));
 ?>

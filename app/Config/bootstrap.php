@@ -122,7 +122,7 @@ Cache::config('default', array('engine' => 'File'));
   * You can add here role id(s) that are always allowed to access the ACL plugin (by bypassing the ACL check)
  * (This may prevent a user from being rejected from the ACL plugin after a ACL permission update)
  */
- Configure :: write('acl.role.access_plugin_role_ids', array());
+ Configure :: write('acl.role.access_plugin_role_ids', array(1));
  
  /*
   * You can add here users id(s) that are always allowed to access the ACL plugin (by bypassing the ACL check)

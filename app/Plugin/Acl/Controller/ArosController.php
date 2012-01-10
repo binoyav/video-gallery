@@ -299,15 +299,15 @@ class ArosController extends AclAppController
 	        	    	$authorized = $this->Acl->check($role, $full_action);
 	        	    	
 	        	    	$permissions[$role[Configure::read('acl.aro.role.model')][$this->_get_role_primary_key_name()]] = $authorized ? 1 : 0 ;
-					}
-	            }
-	    		else
-        	    {
+					      }
+	           }
+	    		   else
+        	   {
         	        /*
         	         * No check could be done as the ARO is missing
         	         */
         	        $permissions[$role[Configure::read('acl.aro.role.model')][$this->_get_role_primary_key_name()]] = -1;
-        	    }
+        	   }
     		}
     		
     		if(isset($plugin_name))
@@ -532,6 +532,7 @@ class ArosController extends AclAppController
         else
         {
             //Deny everything
+          
             $this->Acl->deny($role, 'controllers');
         }
         

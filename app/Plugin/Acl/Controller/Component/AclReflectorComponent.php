@@ -141,6 +141,7 @@ class AclReflectorComponent extends Component
 		
 		return $plugins_controllers;
 	}
+	
 	public function get_all_plugins_controllers_actions($filter_default_controller = true)
 	{
 		$plugin_controllers = $this->get_all_plugins_controllers();
@@ -157,6 +158,13 @@ class AclReflectorComponent extends Component
 				$controller_class_name = $controller_name . 'Controller';
 				
 				$ctrl_cleaned_methods = $this->get_controller_actions($controller_class_name);
+				
+				/* 
+				
+				if ($controller_class_name=='VideosController') {
+				  
+				  pr($ctrl_cleaned_methods);
+				} */
 				
 				foreach($ctrl_cleaned_methods as $action)
 				{
@@ -233,8 +241,9 @@ class AclReflectorComponent extends Component
 	public function get_all_actions()
 	{
 	    $app_controllers_actions     = $this->get_all_app_controllers_actions();
+	    //pr($app_controllers_actions);
 	    $plugins_controllers_actions = $this->get_all_plugins_controllers_actions();
-	    
+	    //pr($plugins_controllers_actions);
 	    return array_merge($app_controllers_actions, $plugins_controllers_actions);
 	}
 	
@@ -247,7 +256,7 @@ class AclReflectorComponent extends Component
 	 */
 	public function get_controller_actions($controller_classname, $filter_base_methods = true)
 	{
-	    $controller_classname = $this->get_controller_classname($controller_classname);
+	  $controller_classname = $this->get_controller_classname($controller_classname);
 	    
 		$methods = get_class_methods($controller_classname);
 		
@@ -261,9 +270,9 @@ class AclReflectorComponent extends Component
     		    foreach($methods as $method)
     		    {
     		        if(!in_array($method, $baseMethods) && strpos($method, '_') !== 0)
-    				{
-    				    $ctrl_cleaned_methods[] = $method;
-    				}
+        				{
+        				    $ctrl_cleaned_methods[] = $method;
+        				}
     		    }
     		    
     		    return $ctrl_cleaned_methods;

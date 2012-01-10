@@ -22,7 +22,6 @@ class AclAppController extends AppController
   function beforeFilter()
   {
     parent::beforeFilter();
-    
     $this->_check_config();
   }
 
@@ -91,7 +90,19 @@ class AclAppController extends AppController
          in_array($this->Auth->user($this->_get_user_primary_key_name()), $authorized_user_ids))
     {
       $this->Auth->allow('*');
+    }// Added by Camo
+    else
+    {
+      
+      $this->redirect(array(
+          'controller' => 'videos',
+          'action' => 'index',
+          'admin' => false,
+          'plugin' => false
+        )
+      );
     }
+    // End : Added by Camo
   }
 
   function _get_passed_aco_path()
